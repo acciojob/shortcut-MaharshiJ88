@@ -2,7 +2,7 @@ function shortcut(str1, str2) {
   // your code here
 	if (str1.length > 0 && str2.length > 0) {
     // Use the first character of each string
-    return str1[0].toUpperCase() + str2[0].toLowerCase();
+    return str1[0] + str2[0];
   } else {
     // If either of the strings is empty, return an empty string
     return '';
